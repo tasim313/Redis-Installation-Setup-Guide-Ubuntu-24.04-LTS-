@@ -179,8 +179,8 @@ Restart service
 sudo systemctl restart redis-server
 ```
 ⚠️ Common Pitfalls
-Redis not restarted after config change
-Port 6379 blocked by firewall
-No password set in production
-Binding to 0.0.0.0 without security
-Memory limits not configured
+- Redis not restarted after config change
+- Port 6379 blocked by firewall
+- No password set in production
+- Binding to 0.0.0.0 without security
+- Memory limits not configured
